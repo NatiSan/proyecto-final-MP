@@ -1,0 +1,29 @@
+.tamano-logo{
+	width: 70px;
+}
+
+.navbar{
+	background-color: #2274A5;
+	color: #E5FFDE;
+}
+
+.background-footer{
+	background: #6D7573;
+}
+.titulo-h1{
+	color: #2274A5
+
+}
+.borde-tarjeta{
+	border-style: solid 2px #2274A5;
+}
+.boton-color{
+	background-color: #F4735F;
+	color: #E5FFDE;
+}
+.background-body{
+	background-color: #E5FFDE;
+}
+.jumbotron-background{
+	background-image: url("assets/img/banner.jpeg");
+}

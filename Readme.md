@@ -27,7 +27,7 @@ Con la finalidad de que el sitio se convierta en una herramienta real para la ce
 A través de este sitio, se espera que las personas sientan que es una página fácil y práctica de usar, que sea bonita y atractiva para que el usuario precise ingresar nuevamente.
 
 ## Requerimientos del sitio 
-El usuario a través del navbar responsivo podrá acceder a las páginas de Inicio, Quiénes Somos, Perdidos, Noticias y Datos y Tips. En todas las páginas se podrá visualizar esta barra de navegación fija.
+El usuario a través del navbar responsivo podrá acceder a las páginas de Inicio, Quiénes Somos, Perdidos, Noticias y Datos y Tips. 
 
 #### En la página inicio:
 •    El inicio dispondrá de un banner carrousel de noticias destacadas y propaganda (esterilización, apoyo a la adopción animal, etc.), las cuales se podrán visualizar de forma independiente en otras páginas correspondientes.
