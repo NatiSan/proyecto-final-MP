@@ -8,6 +8,9 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/estilo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+
+    
 
   <title>Perdidos</title>
 </head>
@@ -18,32 +21,19 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-</body>
-</html>
-
-<div id="carouselExampleControls" class="carousel slide alto-banner-carrousel" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="assets/img/1.jpg" alt="First slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="assets/img/2.jpg" alt="Second slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="assets/img/3.jpg" alt="Third slide">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-
-<nav class="navbar navbar-expand-lg navbar-light">
+    
+  <!-- Scrips Carrusel -->
+    
+    <script src="assets/js/jquery.bxslider.js"></script>
+  
+    
+<script>
+  $(document).ready(function(){
+    $('.slider').bxSlider();
+  });
+</script>
+    
+<nav class="navbar navbar-expand-lg navbar-light fixed-top">
   <a class="navbar-brand" href="#">
     <img class="tamano-logo" src="assets/img/logo-perro.png"> Perdidos
   </a>
@@ -77,11 +67,20 @@
     </ul>
   </div>
 </nav>
+<section class="slider-top">    
+<section class="slider">
+    <div><img src="assets/img/pulpos1.jpeg"></div>
+    <div><img src="assets/img/gatos1.jpeg"></div>
+    <div><img src="assets/img/perros1.jpeg"></div>
+
+</section>
+</section>
+
 
 <h1 class="titulo-h1 text-center">Mascotas Perdidas</h1>
 <div class="container mt-20">
   <div class="row card-deck mt-4 mb-4 noticias ">
-    <div class="col-xs-} col-sm-6 col-md-4"> 
+    <div class="col-xs- col-sm-6 col-md-4"> 
       <img src="assets/img/1.png" alt="..." class="img-thumbnail">
     </div>
     <div class="col-xs-6 col-sm-6 col-md-4">
@@ -143,7 +142,7 @@
     <div class="col-md-3">
       <p><b>whatsapp:</b> +56955287884</p>
       <p><b>twet: </b>@perdidos</p>
-      <b>Facebook: </b>perdidos</p>
+      <b>Facebook: </b><p>perdidos</p>
     </div>
     <div class="col-md-3">
       <button type="button" class="btn btn-secondary"><b>Donaciones</b></button>

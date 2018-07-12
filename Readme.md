@@ -66,7 +66,7 @@ Para dispositivos móviles, se dispondrá de sólo una columna.
 ##### Index Responsivo
 ![Boceto Index Responsivo](assets/img/boceto-responsivo.png)
 
-### Quiés Somos
+### Quiénes Somos
 ![Boceto Index](assets/img/quienes-somos.png)
 
 ##### Quiénes Somos Responsivo
